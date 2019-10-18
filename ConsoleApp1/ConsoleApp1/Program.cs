@@ -9,6 +9,11 @@ namespace ConsoleApp1
 			Console.WriteLine("Hello GitHub!");
 			Console.WriteLine("Hello GitHub!");
 			Console.WriteLine("Hello GitHub!");
+
+			for (int i = 0; i < 100; i++)
+			{
+				Console.WriteLine("v1.0.0");
+			}
 		}
 	}
 }

@@ -10,7 +10,9 @@ namespace ConsoleApp1
 			Console.WriteLine("Hello GitHub!");
 			Console.WriteLine("Hello GitHub!");
 
-			for (int i = 0; i < 100; i++)
+            int loopCount = 100; // デフォルトの数値
+            if (0 < args.Length) loopCount = (int)args[0];
+			for (int i = 0; i < loopCount; i++)
 			{
 				Console.WriteLine("v1.0.0");
 			}
